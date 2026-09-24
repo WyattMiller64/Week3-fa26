@@ -4,14 +4,14 @@
 #SBATCH --time=01:00:00               # Time limit (10 minutes for this lightweight job)
 #SBATCH --ntasks=1                    # Use 1 task
 #SBATCH --partition=RM-shared
-#SBATCH --mail-user=jparedes@svsu.edu  # Add your email address here
+#SBATCH --mail-user=wwmiller@svsu.edu  # Add your email address here
 #SBATCH --mail-type=ALL               # Send email notifications for all job states (BEGIN, END, FAIL)
 
 # Load the SRA Toolkit module. This is the software we will use for this job. Already available in the HPC, but must be loaded.
 module load sra-toolkit
 
 # Set the storage directory. We dont want any large files outside the storage directory.
-STORAGE_DIR="/ocean/projects/bio260081p/jparedesmontero"
+STORAGE_DIR="/ocean/projects/bio260081p/wmiller2"
 
 # Navigate to the storage directory
 cd $STORAGE_DIR

@@ -1,0 +1,1 @@
+unk3	NC_000016.10	100.000	2111	0	0	1	2111	89918862	89920972	0.0	3899	NC_000016.10 Homo sapiens chromosome 16, GRCh38.p14 Primary Assembly
